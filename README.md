@@ -1,6 +1,7 @@
-#Brainfuck interpreter
+# Brainfuck interpreter
 
-##What it Bf?
+## What it Bf?
+
 Brainfuck is an esoteric programming language who consists of an 30kb array of data, a pointer for accesing the array and a 8 instruction set:
 - ">" increments the pointer.
 - "<" decrements the pointer.
@@ -13,13 +14,13 @@ Brainfuck is an esoteric programming language who consists of an 30kb array of d
 
 There is some examples at /demos/
 
-##So what does this program do?
+## So what does this program do?
 The program interprets code written in the bf format
 
-##Installation:
+## Installation:
 -make bf-interp.c (or compile it direcly with gcc).
 
-#Usage:
+# Usage:
 - ./bf-interp "file" (any exension as long it has text)
 
 
